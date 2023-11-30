@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+
+@media (max-width: 768px) {
+  .game {
+    width: 50%;
+    /* Set to 50% on smaller screens for a 2-column layout */
+  }
+}
